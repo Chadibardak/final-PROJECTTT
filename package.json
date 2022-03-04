@@ -1,0 +1,84 @@
+{
+  "name": " Amazona react-complete-e-commerce",
+  "version": "1.0.0"
+  "description" "React Complete Full Stack E-Commerce",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "0.1.9",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.0",
+    "framer-motion": "^3.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-responsive": "^8.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.0",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm run start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "14.15.3",
+    "npm": "6.14.9"
+  },
+  "keywords": [
+    "e-commerce",
+    "shopping",
+    "nodejs",
+    "express",
+    "mongodb",
+    "server"
+  ],
+  "author": "bardak chadi",
+  "license": "2.0",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.1.4",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+    
+   }
+  {
+  "eslintConfig"
+  "extends" 
+  "react-app/jest"
+  }
+
+  "browserslist": {
+    "production":
+      ">0.2%",
+      "not dead"
+      "not op_mini all"
+     "development"
+      "name": "name",
+      "description": "description",
+      "authors": "author",
+      "version": "1.0.0",
+      "main": "pathToMain",
+      "dependencies": {}
+    }
+      "last 1 chrome version"
+      "last 1 firefox version"
+      "last 1 safari version"
+  }
+
